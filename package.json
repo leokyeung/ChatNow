@@ -1,0 +1,26 @@
+{
+  "name": "chatnow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leokyeung/chatnow.git"
+  },
+  "author": "Leo Yeung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leokyeung/chatnow/issues"
+  },
+  "homepage": "https://github.com/leokyeung/chatnow#readme",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
